@@ -61,6 +61,29 @@ public class SpawnSetting
 }
 
 [Serializable]
+public class SoundSettings
+{
+	[SerializeField] private SoundArray _bubbleClick;
+	[SerializeField] private SoundArray _winGame;
+	[Range(0f, 1f)]
+	[SerializeField] private float _volumeFactor;
+	public SoundArray BubbleClick
+	{
+		get { return _bubbleClick; }
+	}
+
+	public float VolumeFactor
+	{
+		get { return _volumeFactor; }
+	}
+
+	public SoundArray WinGame
+	{
+		get { return _winGame; }
+	}
+}
+
+[Serializable]
 public class GeneralSettings
 {
 	[SerializeField]
@@ -109,5 +132,6 @@ public class GeneralSettings
 public class GameSettings : ScriptableObject
 {
 	public SpawnSetting SpawnSetting;
+	public SoundSettings SoundSettings;
 	public GeneralSettings  GeneralSettings;
 }

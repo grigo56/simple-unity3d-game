@@ -28,5 +28,6 @@ public class App : MonoSingleton<App>
 		gameObject.AddComponent<SpawnManager>();
 		gameObject.AddComponent<ScoreManager>();
 		_timerManager = gameObject.AddComponent<TimerManager>();
+		gameObject.AddComponent<SoundManager>();
 	}
 }

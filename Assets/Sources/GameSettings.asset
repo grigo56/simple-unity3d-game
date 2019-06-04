@@ -30,6 +30,16 @@ MonoBehaviour:
     - {r: 0.99607843, g: 0.59607846, b: 0, a: 1}
     - {r: 0.99607843, g: 0.34117648, b: 0.13333334, a: 1}
     - {r: 0.61960787, g: 0.61960787, b: 0.61960787, a: 1}
+  SoundSettings:
+    _bubbleClick:
+      _sounds:
+      - {fileID: 8300000, guid: fd3be3075e40bc24192ae80ed720f28a, type: 3}
+      - {fileID: 8300000, guid: a8cc29063be0f3047adf163a878a263f, type: 3}
+      - {fileID: 8300000, guid: 5f4fde3f1eb4d874f8c7e95318c4dab3, type: 3}
+    _winGame:
+      _sounds:
+      - {fileID: 8300000, guid: 7ee770ef709587a44a7011fe96f61f87, type: 3}
+    _volumeFactor: 0.051
   GeneralSettings:
     _startWorldSpeed: 1
     _endWorldSpeed: 10
