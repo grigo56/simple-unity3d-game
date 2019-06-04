@@ -2,6 +2,7 @@
 
 Тестовое задание на должность Unity-разработчик.
 Версия Unity3d 2018.2.21f1
+
 Ссылка на Win build : https://yadi.sk/d/FmyCxfDAMwmTHQ
 
 
